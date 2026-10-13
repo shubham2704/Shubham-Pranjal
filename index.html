@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+  <!-- SEO -->
+  <title>Shubham & Pranjal — Engagement Ceremony | November 12, 2026</title>
+  <meta name="description" content="You are cordially invited to celebrate the engagement ceremony of Shubham Goswami and Pranjal Goswami on November 12, 2026 in Ghaziabad, Delhi NCR.">
+  <meta name="keywords" content="engagement, ceremony, Shubham, Pranjal, Goswami, wedding, invitation">
+
+  <!-- Open Graph for WhatsApp / Social Sharing -->
+  <meta property="og:title" content="Shubham & Pranjal — Engagement Ceremony">
+  <meta property="og:description" content="We're getting engaged! Join us for our engagement ceremony on November 12, 2026.">
+  <meta property="og:type" content="website">
+  <!-- CUSTOMIZE: Update with your hosted URL & share image -->
+  <meta property="og:image" content="assets/images/hero-bg.png">
+  <meta property="og:url" content="">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Great+Vibes&family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Favicon (rose gold heart emoji as fallback) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💍</text></svg>">
+</head>
+<body>
+
+  <!-- =============================================
+       NAVIGATION
+       ============================================= -->
+  <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+    <span class="nav-logo">S & P</span>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#story">Our Story</a></li>
+      <li><a href="#event">Event</a></li>
+    </ul>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+  <!-- =============================================
+       SECTION 1: HERO
+       ============================================= -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <!--
+        ════════════════════════════════════════════════
+        CUSTOMIZE: Replace this image with your own
+        engagement photo or a romantic background image.
+        Recommended: landscape, at least 1920×1080px.
+        ════════════════════════════════════════════════
+      -->
+      <img src="assets/images/hero-bg.png"
+           alt="Engagement ceremony background"
+           loading="eager">
+    </div>
+    <div class="hero-overlay"></div>
+
+    <!-- Floating petals canvas -->
+    <canvas id="petals-canvas" aria-hidden="true"></canvas>
+
+    <div class="hero-content">
+      <p class="hero-pretext">We're Getting Engaged</p>
+
+      <h1 class="hero-names">
+        Shubham
+        <span class="hero-ampersand">&</span>
+        Pranjal
+      </h1>
+
+      <!--
+        ════════════════════════════════════════════════
+        CUSTOMIZE: Change the tagline below to your liking.
+        ════════════════════════════════════════════════
+      -->
+      <p class="hero-tagline">"Two souls, one beautiful journey begins..."</p>
+
+      <p class="hero-date">November 12, 2026 · Ghaziabad, Delhi NCR</p>
+
+      <!-- Countdown Timer -->
+      <div class="countdown" aria-label="Countdown to engagement ceremony">
+        <div class="countdown-item">
+          <span class="countdown-value" id="countdown-days">00</span>
+          <span class="countdown-label">Days</span>
+        </div>
+        <div class="countdown-item">
+          <span class="countdown-value" id="countdown-hours">00</span>
+          <span class="countdown-label">Hours</span>
+        </div>
+        <div class="countdown-item">
+          <span class="countdown-value" id="countdown-mins">00</span>
+          <span class="countdown-label">Minutes</span>
+        </div>
+        <div class="countdown-item">
+          <span class="countdown-value" id="countdown-secs">00</span>
+          <span class="countdown-label">Seconds</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll Indicator -->
+    <div class="scroll-indicator" aria-hidden="true">
+      <a href="#story">
+        <span class="scroll-arrow"></span>
+        Scroll
+      </a>
+    </div>
+  </section>
+
+  <!-- =============================================
+       SECTION 2: OUR STORY
+       ============================================= -->
+  <section class="our-story section-padding" id="story">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="section-label">Our Journey</span>
+        <h2 class="section-title">Our Story</h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="story-grid">
+        <!-- Collage Photo -->
+        <div class="story-image-wrap reveal-left">
+          <div class="story-image-frame">
+            <img src="assets/images/our-story-collage.jpg"
+                 alt="Shubham and Pranjal — our journey collage"
+                 loading="lazy">
+          </div>
+        </div>
+
+        <!-- Text — Option C: "It Started With a Smile" -->
+        <div class="story-text reveal-right">
+          <span class="section-label">How It All Began</span>
+          <h3 class="section-title" style="font-size: clamp(1.5rem, 3.5vw, 2.2rem);">
+            It Started With a Smile
+          </h3>
+          <div class="section-divider"></div>
+
+          <blockquote class="story-quote">
+            "Some people search the whole world for their person. Ours just walked in
+            with a smile that changed everything."
+          </blockquote>
+
+          <div class="story-body">
+            <p>
+              What began as a family introduction quickly became something neither of us
+              expected — a friendship that turned into late-night talks, late-night talks
+              that turned into travel plans, and travel plans that turned into
+              "I can't imagine doing any of this without you."
+            </p>
+            <p>
+              She's the one who finds the hidden restaurants in every new city. He's the
+              one who says "let's go" before she even finishes the sentence. Together,
+              we've discovered that love isn't just about the big moments — it's the
+              in-between ones, the food comas, and the road trips where we get happily lost.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+       SECTION 3: EVENT DETAILS
+       ============================================= -->
+  <section class="event-details section-padding" id="event">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="section-label" style="color: var(--color-gold-light);">Save the Date</span>
+        <h2 class="section-title">Event Details</h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="event-cards stagger-children">
+        <!-- Date Card -->
+        <div class="event-card reveal-scale" style="--stagger-index: 0;">
+          <div class="event-card-icon">📅</div>
+          <h3>Date</h3>
+          <p class="event-highlight">November 12, 2026</p>
+          <p>Thursday</p>
+        </div>
+
+        <!-- Time Card -->
+        <div class="event-card reveal-scale" style="--stagger-index: 1;">
+          <div class="event-card-icon">🕐</div>
+          <h3>Time</h3>
+          <!--
+            ════════════════════════════════════════════════
+            CUSTOMIZE: Update with your actual ceremony time.
+            ════════════════════════════════════════════════
+          -->
+          <p class="event-highlight">11:00 AM Onwards</p>
+          <p>Followed by Lunch</p>
+        </div>
+
+        <!-- Venue Card -->
+        <div class="event-card reveal-scale" style="--stagger-index: 2;">
+          <div class="event-card-icon">📍</div>
+          <h3>Venue</h3>
+          <p class="event-highlight">Gulmohar Grand Farms & Banquet</p>
+          <p>Sec-6, Opp. Amity International School<br>Vasundhara, Ghaziabad — 201012</p>
+        </div>
+      </div>
+
+      <!-- Google Maps Embed -->
+      <div class="map-wrapper reveal">
+        <iframe
+          src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=Gulmohar+Grand+Farms+and+Banquet+Vasundhara+Ghaziabad&zoom=15"
+          width="100%"
+          height="350"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Gulmohar Grand Farms & Banquet — Venue location">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- =============================================
+       FOOTER
+       ============================================= -->
+  <footer class="footer">
+    <div class="footer-names">Shubham & Pranjal</div>
+    <div class="footer-date">November 12, 2026</div>
+
+    <div class="footer-divider"></div>
+
+    <p class="footer-credit">
+      Made with <span>♥</span> for our special day
+    </p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
